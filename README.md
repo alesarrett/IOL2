@@ -2,7 +2,7 @@
 Project related to the Institute of Open Leadership 2: https://openpolicynetwork.org/iol/
 
 <div id="container" style="position: relative; width: 600px; height: 300px;"></div>
-<script src="./datamaps.world.min.js"></script>
+<script src="datamaps.world.min.js"></script>
 <script>
     var map = new Datamap({
       element: document.getElementById('container'),
