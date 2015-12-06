@@ -11,7 +11,7 @@
     <title>Iol2</title>
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
-    <script src="./datamaps.world.min.js"></script>
+    <script src="./javascripts/datamaps.world.min.js"></script>
   </head>
 
   <body>
@@ -32,11 +32,14 @@
     </div>
 
     <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
     <div id="container" style="position: relative; width: 600px; height: 300px;"></div>
     <script>
         var map = new Datamap({
           element: document.getElementById('container'),
-/*          projection: 'mercator',*/
+          /*          projection: 'mercator',*/
           fills: {
             defaultFill: "#ABDDA4",
             IOL2fellows: "#fa0fa0"
@@ -61,8 +64,7 @@
         });
     </script>
 
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+
         <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
@@ -98,7 +100,7 @@
       </footer>
     </div>
 
-    
+
 
   </body>
 </html>
