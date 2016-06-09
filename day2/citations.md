@@ -5,4 +5,4 @@ It can be viewed [here](http://alesarrett.github.io/IOL2/day2/mypresentation/ind
 To cite this work please refer to:
 
 Sarretta, Alessandro (2016): Definition of a data policy for marine research data in the Institute of Marine Sciences. figshare.
-https://dx.doi.org/10.6084/m9.figshare.3115597.v1
+https://dx.doi.org/10.6084/m9.figshare.3115597
